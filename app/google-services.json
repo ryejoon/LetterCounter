@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "794621722111",
+    "firebase_url": "https://lettercounter-9214b.firebaseio.com",
+    "project_id": "lettercounter-9214b",
+    "storage_bucket": "lettercounter-9214b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794621722111:android:1f0f55f0f64b99e9",
+        "android_client_info": {
+          "package_name": "com.ms.ryejoon.lettercounter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794621722111-94bcetqtp5ngabtok43ijq7dnvcft595.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIBRhxf2CdzPZ8VdBFvAxmINYaRs_fpO0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

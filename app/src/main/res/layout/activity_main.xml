@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout android:orientation="vertical"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id"
+            android:layout_above="@+id/number"
+            android:layout_centerHorizontal="true">
+        </com.google.android.gms.ads.AdView>
+
+        <TextView android:id="@+id/number" android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:text="0"
+            android:layout_alignParentBottom="true" android:textSize="40dp"
+            android:gravity="center" />
+
+        <CheckBox android:id="@+id/space" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="Space"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true" />
+
+        <Button android:id="@+id/exit" android:layout_width="80dp"
+            android:layout_height="wrap_content" android:text="Quit"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true" />
+
+        <EditText android:layout_width="match_parent"
+            android:layout_height="fill_parent" android:id="@+id/texts"
+            android:layout_above="@+id/adView" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
