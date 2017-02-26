@@ -15,5 +15,5 @@ package="com.ms.ryejoon.lettercounter" android:versionCode="3" android:versionNa
 </application>
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 <uses-permission android:name="android.permission.INTERNET" />
-<uses-sdk android:minSdkVersion="14" />
+<uses-sdk android:minSdkVersion="15" />
 </manifest>
